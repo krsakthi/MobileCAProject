@@ -49,7 +49,9 @@ class AddGeotificationViewController: UITableViewController {
 
         })
         //return true;
-    }
+  print("Github Check")
+  
+  }
     
   override func viewDidLoad() {
     super.viewDidLoad()
