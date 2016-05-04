@@ -32,13 +32,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D90CB64D1A739B7A00228A1F /* Geotify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Geotify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D90CB64D1A739B7A00228A1F /* CAProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D90CB6511A739B7A00228A1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D90CB6521A739B7A00228A1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D90CB6571A739B7A00228A1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D90CB6591A739B7A00228A1F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D90CB65C1A739B7A00228A1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		D90CB6621A739B7A00228A1F /* GeotifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeotifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D90CB6621A739B7A00228A1F /* CAProject.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAProject.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D90CB6671A739B7A00228A1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D90CB6681A739B7A00228A1F /* GeotifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeotifyTests.swift; sourceTree = "<group>"; };
 		D90CB6721A739D4300228A1F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -73,9 +73,9 @@
 		D90CB6441A739B7A00228A1F = {
 			isa = PBXGroup;
 			children = (
-				D90CB64F1A739B7A00228A1F /* Geotify */,
+				D90CB64F1A739B7A00228A1F /* CAProject */,
 				D9AEA6FE1A793D570020A0D4 /* Frameworks */,
-				D90CB6651A739B7A00228A1F /* GeotifyTests */,
+				D90CB6651A739B7A00228A1F /* CAProjectTests */,
 				D90CB64E1A739B7A00228A1F /* Products */,
 			);
 			indentWidth = 2;
@@ -85,13 +85,13 @@
 		D90CB64E1A739B7A00228A1F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D90CB64D1A739B7A00228A1F /* Geotify.app */,
-				D90CB6621A739B7A00228A1F /* GeotifyTests.xctest */,
+				D90CB64D1A739B7A00228A1F /* CAProject.app */,
+				D90CB6621A739B7A00228A1F /* CAProject.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D90CB64F1A739B7A00228A1F /* Geotify */ = {
+		D90CB64F1A739B7A00228A1F /* CAProject */ = {
 			isa = PBXGroup;
 			children = (
 				D90CB6521A739B7A00228A1F /* AppDelegate.swift */,
@@ -104,6 +104,7 @@
 				D90CB65B1A739B7A00228A1F /* LaunchScreen.xib */,
 				D90CB6501A739B7A00228A1F /* Supporting Files */,
 			);
+			name = CAProject;
 			path = Geotify;
 			sourceTree = "<group>";
 		};
@@ -116,12 +117,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		D90CB6651A739B7A00228A1F /* GeotifyTests */ = {
+		D90CB6651A739B7A00228A1F /* CAProjectTests */ = {
 			isa = PBXGroup;
 			children = (
 				D90CB6681A739B7A00228A1F /* GeotifyTests.swift */,
 				D90CB6661A739B7A00228A1F /* Supporting Files */,
 			);
+			name = CAProjectTests;
 			path = GeotifyTests;
 			sourceTree = "<group>";
 		};
@@ -145,9 +147,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D90CB64C1A739B7A00228A1F /* Geotify */ = {
+		D90CB64C1A739B7A00228A1F /* CAProject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D90CB66C1A739B7A00228A1F /* Build configuration list for PBXNativeTarget "Geotify" */;
+			buildConfigurationList = D90CB66C1A739B7A00228A1F /* Build configuration list for PBXNativeTarget "CAProject" */;
 			buildPhases = (
 				D90CB6491A739B7A00228A1F /* Sources */,
 				D90CB64A1A739B7A00228A1F /* Frameworks */,
@@ -157,14 +159,14 @@
 			);
 			dependencies = (
 			);
-			name = Geotify;
+			name = CAProject;
 			productName = Geotify;
-			productReference = D90CB64D1A739B7A00228A1F /* Geotify.app */;
+			productReference = D90CB64D1A739B7A00228A1F /* CAProject.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D90CB6611A739B7A00228A1F /* GeotifyTests */ = {
+		D90CB6611A739B7A00228A1F /* CAProjectTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D90CB66F1A739B7A00228A1F /* Build configuration list for PBXNativeTarget "GeotifyTests" */;
+			buildConfigurationList = D90CB66F1A739B7A00228A1F /* Build configuration list for PBXNativeTarget "CAProjectTests" */;
 			buildPhases = (
 				D90CB65E1A739B7A00228A1F /* Sources */,
 				D90CB65F1A739B7A00228A1F /* Frameworks */,
@@ -175,9 +177,9 @@
 			dependencies = (
 				D90CB6641A739B7A00228A1F /* PBXTargetDependency */,
 			);
-			name = GeotifyTests;
+			name = CAProjectTests;
 			productName = GeotifyTests;
-			productReference = D90CB6621A739B7A00228A1F /* GeotifyTests.xctest */;
+			productReference = D90CB6621A739B7A00228A1F /* CAProject.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -189,7 +191,7 @@
 				LastSwiftMigration = 0730;
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0610;
-				ORGANIZATIONNAME = "Ken Toh";
+				ORGANIZATIONNAME = Iss;
 				TargetAttributes = {
 					D90CB64C1A739B7A00228A1F = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -205,7 +207,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D90CB6481A739B7A00228A1F /* Build configuration list for PBXProject "Geotify" */;
+			buildConfigurationList = D90CB6481A739B7A00228A1F /* Build configuration list for PBXProject "CAProject" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -218,8 +220,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D90CB64C1A739B7A00228A1F /* Geotify */,
-				D90CB6611A739B7A00228A1F /* GeotifyTests */,
+				D90CB64C1A739B7A00228A1F /* CAProject */,
+				D90CB6611A739B7A00228A1F /* CAProjectTests */,
 			);
 		};
 /* End PBXProject section */
@@ -271,7 +273,7 @@
 /* Begin PBXTargetDependency section */
 		D90CB6641A739B7A00228A1F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D90CB64C1A739B7A00228A1F /* Geotify */;
+			target = D90CB64C1A739B7A00228A1F /* CAProject */;
 			targetProxy = D90CB6631A739B7A00228A1F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -380,7 +382,8 @@
 				INFOPLIST_FILE = Geotify/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = sg.edu.nus.iss.wlad;
+				PRODUCT_NAME = CAProject;
 			};
 			name = Debug;
 		};
@@ -393,7 +396,8 @@
 				INFOPLIST_FILE = Geotify/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = sg.edu.nus.iss.wlad;
+				PRODUCT_NAME = CAProject;
 			};
 			name = Release;
 		};
@@ -411,8 +415,8 @@
 				);
 				INFOPLIST_FILE = GeotifyTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Geotify.app/Geotify";
+				PRODUCT_NAME = CAProject;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CAProject.app/CAProject";
 			};
 			name = Debug;
 		};
@@ -426,15 +430,15 @@
 				);
 				INFOPLIST_FILE = GeotifyTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Geotify.app/Geotify";
+				PRODUCT_NAME = CAProject;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CAProject.app/CAProject";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D90CB6481A739B7A00228A1F /* Build configuration list for PBXProject "Geotify" */ = {
+		D90CB6481A739B7A00228A1F /* Build configuration list for PBXProject "CAProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D90CB66A1A739B7A00228A1F /* Debug */,
@@ -443,7 +447,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D90CB66C1A739B7A00228A1F /* Build configuration list for PBXNativeTarget "Geotify" */ = {
+		D90CB66C1A739B7A00228A1F /* Build configuration list for PBXNativeTarget "CAProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D90CB66D1A739B7A00228A1F /* Debug */,
@@ -452,7 +456,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D90CB66F1A739B7A00228A1F /* Build configuration list for PBXNativeTarget "GeotifyTests" */ = {
+		D90CB66F1A739B7A00228A1F /* Build configuration list for PBXNativeTarget "CAProjectTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D90CB6701A739B7A00228A1F /* Debug */,
